@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Montserrat&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 800px) {
+
+  /****************************************Header********************************************************/
+  .logo {
+    width: 25%;
+    margin: 0 0 0 15px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  #header {
+    width: 100%;
+    height: 462px;
+    background-repeat: no-repeat;
+  }
+
+  /*Hamburger Menu*/
+  .hamburger {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+
+  }
+
+  .navbar-toggler {
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+  }
+
+  .navbar-toggler img {
+    height: 50px;
+    width: 50px;
+    filter: invert(100%);
+  }
+
+  .ham-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 30px 0;
+  }
+
+  .ham-links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .nav-icons {
+    margin-top: 4px;
+    margin-left: 37%;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav {
+    /* visibility: hidden; */
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-items {
+    visibility: hidden;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  /********************************************Banner*****************************************************/
+  .banner {
+    /* visibility: hidden; */
+    width: 90%;
+    position: absolute;
+    top: 175px;
+    left: 1rem;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  /* ********************************************tour package********************************************** */
+  #tour-package{
+    height: 2000px;
+    margin-bottom: -300px;
+  }
+  .tour-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tour-text {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* *************************************************about company******************************************** */
+
+  .background-2 {
+    height: 1530px;
+    margin-top: -70px;
+    overflow: hidden;
+  }
+
+  .rectangle-2-holder {
+    /* left: 0; */
+    padding: 60px 0 79px;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    background: #cd0a2d;
+  }
+
+  .left-side {
+    left: 3%;
+    margin: 0 auto;
+    position: relative;
+    width: 90%;
+  }
+
+  .rectangle-2-copy-holder {
+    left: 0;
+    position: absolute;
+    top: 807px;
+    width: 100%;
+    background: #ffffff;
+    padding: 65px 0 60px;
+  }
+
+  .right-side {
+    margin: 0 auto;
+    position: relative;
+    width: 85%;
+  }
+
+  .center-motorcycle-image {
+    left: 35%;
+    max-width: 356px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 39.5%;
+    width: 35%;
+    height: 400px;
+  }
+
+  .ellipse-2{
+    width: 34%;
+  }
+  .ellipse-2-copy{
+    width: 34%;
+  }
+  .ellipse-2-copy-2{
+    width: 34%;
+  }
+
+  /* **********************************************client testimonial ****************************************************/
+
+  .client-testimonial {
+    overflow: hidden;
+    width: 100%;
+    margin: 60px 0;
+    padding-top: 50px;
+  }
+  .rider-testimonial{
+    width: 80%;
+  }
+  .heading{
+    margin: 0 45px;
+    width: 85%;
+  }
+  .rectangle-2-copy-3-holder {
+    margin: 0;
+    padding: 38px 0 0;
+    position: relative;
+    width: 90%;
+    background: white;
+    height: 450px;
+  }
+  .row-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 720px;
+  }
+  .row-2 img{
+    margin: 0 0 0 20px;
+    width: 50%;
+  }
+  .row-3{
+    margin: 0 0 0 30px;
+    width: 90%;
+    height: 100px;
+  }
+  .row-3 img{
+    width: 70%;
+  }
+  .test-text{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+  }
+
+  /*************************************************** Company feature****************************************** */
+
+  .rectangle-2-copy-2-holder {
+    height: 720px;
+  }
+  .heading-2{
+    top:40px;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+  }
+  .bg3-head, .bg3-head2{
+    font-size: 50px;
+  }
+  .bg3-cont{
+    font-size: 13px;
+  }
+  .layer-3{  /*bike*/
+    height: 385px;
+    width: 40%;
+    left: 30%;
+  }
+  .group-11{
+    top: 38%;
+    left: 5%;
+    width: 22%;
+    height: 200px;
+  }
+  .days1, .days2, .tcountries{
+    overflow-y: hidden;
+  }
+  .t1000{
+    font-size: 40px;
+  }
+  .km1{
+    font-size: 25px;
+  }
+  .days1{
+    font-size: 23px;
+    margin: -12px;
+  }
+  .group-8{
+    top: 37.5%;
+    width: 23%;
+    left: 75%;
+    height: 200px;
+  }
+  .group-10{
+    width: 33%;
+    left: 2%;
+  }
+  .t3000{
+    font-size: 65px;
+  }
+  .km2{
+    font-size: 34px;
+  }
+  .days2{
+    font-size: 36px;
+    margin-top: -20px;
+  }
+  .group-9{
+    width: 35%;
+    left: 70%;
+  }
+  .t50{
+    font-size: 100px;
+  }
+  .tcountries{
+    margin-top: -32px;
+    font-size: 35px;
+  }
+  .company-text{
+    width: 40%;
+    left: 3%;
+    font-size: 14px;
+  }
+  .text-43{
+    left: 0%;
+    width: 100%;
+    top:70%;
+    height: 200px;
+    overflow-y: hidden;
+  }
+  .company-text2{
+    left: 59%;
+    font-size: 14px;
+    width: 40%;
+  }
+  .background-3{
+    height: 770px;
+  }
+
+
+/************************************************Travel Blog***************************************************/
+
+  #travel-blog{
+    background-color:rgb(237, 237,237);
+  }
+  .blog-text{
+    width: 100%;
+    margin: 50px auto;
+    overflow-y: hidden;
+  }
+  .blog-text h1{
+    margin-bottom: 0;
+    overflow-y: hidden;
+  }
+
+  /* *****************************************************contact section********************************* */
+.location {
+  background: url("Images/journey-Background.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 415px;
+}
+.location p{
+  width: 100%;
+}
+.pin{
+  position: relative;
+  left: 162px;
+  top: -120px;
+  z-index: 1000;
+}
+.contact-info{
+  margin-top: -90px;
+}
+.info{
+  margin-top: 0px;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links{
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.info-text1{
+  margin-bottom: 0;
+  width: 180px;
+}
+.info-items{
+  width: 280px;
+}
+.phone{
+  margin-left: 17px;
+}
+
+/***************************************************footer***********************************/
+.footer-container{
+  margin-top: 30px;
+}
+
+
+/***********************************************Contact Form***************************************/
+.submit-btn{
+  width: 50%;
+}
+.form-container{
+  width: 100%;
+  left: 0;
+}
+.form{
+  width: 80%;
+}
+
+/**************************************************Login/Sign Up***************************************/
+
+.login-container{
+  width: 100%;
+  left: 0;
+}
+
+
+}
+.logout-container{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  height: 500px;
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#emailHelp {
+  color: grey;
+}
+
+
+/**************************************Create**********************************/
+
+.Container{
+  margin: 0 auto;
+  width: 60%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.Container input{
+  width: 300px;
+  height: 45px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+.Container label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.Container button{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #cd0a2d;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+
+
+/**************************************absolute class****************************************/
+.absoluteclass{
+  color: #ffffff;
+  position: absolute;
+  top: 10%;
+  width: 90%;
+  left: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.smallbox{
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+/**********************************footerspace*********************************/
+.footerspace{
+  height: 110px;
+}
